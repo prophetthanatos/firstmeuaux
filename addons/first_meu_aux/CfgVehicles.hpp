@@ -977,6 +977,8 @@ class CfgVehicles
     class Praetor_Jumpack: OPTRE_S12_SOLA_Jetpack	
     {
         displayName = "[1stMEU] ODST Advanced Reconnaissance Jumpack";
+	model = "\OPTRE_weapons\backpacks\jetpack.p3d";
+	picture = "\OPTRE_weapons\backpacks\icons\icon_jetpack_ca.paa";
         tf_encryptionCode = "tf_west_radio_code";
         tf_dialog = "anarc210_radio_dialog";
         tf_subtype = "digital_lr";
@@ -985,6 +987,16 @@ class CfgVehicles
         tf_hasLRradio = 1;
         maximumLoad = 200;
     };
+	
+	class Praetor_Jumpack_On: Praetor_Jumpack
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		model = "\OPTRE_weapons\backpacks\jetpack_on.p3d";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {""};
+	};
 	
 	class MEU_Zeus_Pack : OPTRE_ANPRC_521_Black
     {
