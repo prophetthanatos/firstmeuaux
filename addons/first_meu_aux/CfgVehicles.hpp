@@ -977,6 +977,7 @@ class CfgVehicles
     class Praetor_Jumppack: OPTRE_ILCS_Rucksack_Black	
     {
         displayName = "[1stMEU] ODST Advanced Reconnaissance Jumppack";
+	picture = "\OPTRE_weapons\backpacks\icons\icon_jetpack_ca.paa";
 	model = "\OPTRE_weapons\backpacks\jetpack.p3d";
         tf_encryptionCode = "tf_west_radio_code";
         tf_dialog = "anarc210_radio_dialog";
