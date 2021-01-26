@@ -823,6 +823,40 @@ class CfgMagazines
 		mass = 18;
 	};
 	
+	class 1Rnd_9Bang_MEU_shell:1Rnd_HE_MEU_shell
+	{
+		author = "1stMEU Kestrel";
+		displayName = "M301 1 Rnd 40mm 9Bang shell";
+		displayNameShort = "1Rnd 40mm 9Bang";
+		descriptionShort = "A 9Bang stuffed into a 40mm shell";
+		initspeed = 200;
+		ammo = "MEU_9bang";
+		mass = 5;
+	};
+	
+	class 1Rnd_40mm_CS_shell:1Rnd_HE_MEU_shell
+	{
+		author = "1stMEU Kestrel";
+		displayName = "M301 1 Rnd 40mm Tear gas shell";
+		displayNameShort = "1Rnd 40mm CS";
+		descriptionShort = "A shell that'll make their eyes water";
+		initspeed = 200;
+		ammo = "rhs_ammo_m7a3_cs";
+		//RHSUSF ammo dependency
+		mass = 5;
+	};
+	
+	class 1Rnd_40mm_Conc_shell:1Rnd_HE_MEU_shell
+	{
+		author = "1stMEU Kestrel";
+		displayName = "M301 1 Rnd 40mm Concussion shell";
+		displayNameShort = "1Rnd 40mm Concussion";
+		initspeed = 200;
+		ammo = "rhs_ammo_mk3a2";
+		//RHSUSF ammo dependency
+		mass = 5;
+	};
+	
 	class 40Rnd_HEDP_Belt:1Rnd_HEDP_MEU_shell
 	{
 		author = "1st MEU  Oneill";
